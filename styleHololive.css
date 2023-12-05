@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(5,10,30,0.7),rgba(5,10,30,0.7)),url(https://d3la0uqcqx40x5.cloudfront.net/wp-content/uploads/2022/01/Hololive-Super-Expo-2022-Will-Include-Hololive-En-Myth-Members.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.textBox {
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.textBox h1 {
+	font-size: 60px;
+}
+
+.textBox p {
+	margin: 10px 0 40px;
+	font-size: 15px;
+	color: white;
+}
+
+.heroBtn {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 15px 30px;
+	font-size: 15px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+.heroBtn:hover {
+	border: 1px solid cyan;
+	background: cyan;
+	transition: 0.5s;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar .logo img  {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+
+    .navbar .menu {
+        display: block;
+    }
+
+    .nav-links {
+        top: 0;
+        left: 0 ;
+        position: absolute;
+        background-color: rgba(5,10,30,0.7);
+        backdrop-filter: blur(10px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-menu {
+        margin-left: 0;
+    }
+    
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-links ul li {
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+}
+
+.group {
+    margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h1 {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.gen {
+    margin-top: 25px;
+}
+
+.talents {
+    text-align: center;
+}
+
+.talents ul {
+    justify-content: center;
+    display: flex;
+}
+
+
+.talents img {
+	display: block;
+    width: 200px;
+}
+
+h3 {
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+@media screen and (max-width: 900px) {
+	.talents {
+		flex-direction: column;
+	}
+
+    .talents ul  {
+        display: block;
+        justify-content: center;
+    }
+
+    .talents img {
+        width: 100%;
+    }
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+	padding: 70px 30px 20px;
+}
+
+.credit {
+	letter-spacing: 1px;
+	color: white;
+	text-align: center;
+}
+
+.socialIcons {
+	display: flex;
+	justify-content: center;
+}
+
+.socialIcons a {
+	padding: 10px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.socialIcons a i {
+	font-size: 2em;
+	color: black;
+	opacity: 0.9;
+}
+
+.socialIcons a:hover {
+	background-color: #111;
+	transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+	color: white;
+	transition: 0.5s;
+}
+
+@media screen and (max-width: 900px) {
+	body	 {
+		width: 100%;
+	}
+	
+	.credit h4 {
+		font-size: 8px;
+	}
+}

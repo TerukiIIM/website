@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectHanaki a img {
+	margin-left: 400px;
+    width: 250px;
+}
+
+.projectHololive a img {
+	margin-right: 400px;
+	width: 200px;
+}
+
+footer {
+	z-index: 3;
+	background-color: black;
+	width: 100%;
+	padding: 70px 30px 20px;
+}
+
+.credit {
+	letter-spacing: 1px;
+	color: white;
+	text-align: center;
+}
+
+.socialIcons {
+	display: flex;
+	justify-content: center;
+}
+
+.socialIcons a {
+	padding: 10px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.socialIcons a i {
+	font-size: 2em;
+	color: black;
+	opacity: 0.9;
+}
+
+.socialIcons a:hover {
+	background-color: #111;
+	transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+	color: white;
+	transition: 0.5s;
+}
+
+@media screen and (max-width: 900px) {
+	body	 {
+		width: 100%;
+	}
+	
+	.credit h4 {
+		font-size: 8px;
+	}
+}
