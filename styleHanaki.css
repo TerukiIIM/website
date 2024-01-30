@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	font-family: "Lobster Two", cursive;
@@ -12,53 +12,53 @@
 
 header {
 	background-image: linear-gradient(rgba(5,10,30,0.7),rgba(5,10,30,0.7)),url(https://i.pinimg.com/originals/fe/cc/20/fecc20eaa5617052dcb26d3834658960.gif);
-    height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
 }
 
 .navbar {
-    position: absolute;
-    padding: 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+	position: absolute;
+	padding: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
 }
 
 .navbar a {
-    color: white;
+	color: white;
 }
 
 .navbar .logo img {
-    width: 125px;
+	width: 125px;
 }
 
 .navbar .nav-links ul {
-    display: flex; 
+	display: flex; 
 }
 
 .navbar .nav-links ul li {
-    margin: 0 25px;
+	margin: 0 25px;
 }
 
 .navbar .nav-links ul li a:hover {
 	color: pink;
-    transition: 0.5s;
+	transition: 0.5s;
 }
 
 .navbar .nav-links ul li.active a {
-    color: pink;
-    font-weight: 600;
+	color: pink;
+	font-weight: 600;
 }
 
 .navbar .menu {
-    display: none;
-    position: absolute;
-    top: 50px;
-    right: 50px;
-    width: 35px;
+	display: none;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	width: 35px;
 }
 
 .textBox {
